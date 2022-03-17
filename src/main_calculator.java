@@ -4,7 +4,7 @@ import java.util.Queue;
  *  */
 public class main_calculator {
     public static void main(String[] args){
-        String formel = "3 * 9";
+        String formel = "(3 / 3) * (7 + 19) - 8";
         List<String> expression = calculator.readExpression(formel);
         System.out.println("Строка: " + expression);
         Queue<String> expQ = calculator.postfixRecord(expression);
